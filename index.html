@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Replica of Udemy homepage highlighting courses, career paths, and enterprise learning.">
+    <title>Udemy | Online Courses Anytime, Anywhere</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="announcement-bar">
+        <p>Learn more, spend less — Cyber Monday Sale from $9.99, ends soon</p>
+        <button class="announcement-cta">Shop now</button>
+    </div>
+
+    <header class="global-header">
+        <div class="logo" aria-label="Udemy home">
+            <span>Udemy</span>
+        </div>
+        <button class="mobile-nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+            <a href="categories.html">Categories</a>
+            <div class="search-field">
+                <span class="icon-search" aria-hidden="true"></span>
+                <input type="search" placeholder="Search for anything" aria-label="Search for courses">
+            </div>
+            <a href="courses.html">Udemy Business</a>
+            <a href="learningpaths.html">Teach on Udemy</a>
+            <a href="#">My learning</a>
+        </nav>
+        <div class="header-actions">
+            <button class="icon-btn" aria-label="Wishlist">
+                <span class="icon-heart"></span>
+            </button>
+            <button class="icon-btn" aria-label="Shopping cart">
+                <span class="icon-cart"></span>
+            </button>
+            <button class="ghost-btn">Log in</button>
+            <button class="primary-btn">Sign up</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero shell">
+            <div class="hero-content">
+                <p class="eyebrow">Transform your future</p>
+                <h1>Build in-demand skills that power careers and companies</h1>
+                <p class="hero-copy">Explore fresh courses, practice with hands-on labs, and get certifications that fast-track your ambitions.</p>
+                <div class="hero-actions">
+                    <button class="primary-btn">Explore courses</button>
+                    <button class="ghost-btn">Try Udemy Business</button>
+                </div>
+                <div class="hero-meta">
+                    <div>
+                        <span class="meta-value">75M+</span>
+                        <span class="meta-label">Learners</span>
+                    </div>
+                    <div>
+                        <span class="meta-value">16K+</span>
+                        <span class="meta-label">Enterprise customers</span>
+                    </div>
+                    <div>
+                        <span class="meta-value">210K+</span>
+                        <span class="meta-label">Courses</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-media" aria-hidden="true">
+                <div class="media-card primary">
+                    <h3>Cyber Monday savings</h3>
+                    <p>Top-rated courses from $9.99</p>
+                    <button class="secondary-btn">Browse deals</button>
+                </div>
+                <div class="media-grid">
+                    <div class="media-tile">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=300&q=60" alt="Design tools">
+                        <div>
+                            <p class="tile-label">Product design</p>
+                            <p class="tile-meta">12 new paths</p>
+                        </div>
+                    </div>
+                    <div class="media-tile">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=300&q=60" alt="AI skills">
+                        <div>
+                            <p class="tile-label">GenAI mastery</p>
+                            <p class="tile-meta">Bestseller</p>
+                        </div>
+                    </div>
+                    <div class="media-tile">
+                        <img src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&w=300&q=60" alt="Leadership">
+                        <div>
+                            <p class="tile-label">Leadership</p>
+                            <p class="tile-meta">Teams love</p>
+                        </div>
+                    </div>
+                    <div class="media-tile">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=300&q=60" alt="Cloud">
+                        <div>
+                            <p class="tile-label">Cloud expert</p>
+                            <p class="tile-meta">AWS, Azure, GCP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-rail shell">
+            <div class="rail-header">
+                <div>
+                    <p class="eyebrow">Learn essential career and life skills</p>
+                    <h2>Trending topics picked for you</h2>
+                </div>
+                <div class="rail-controls">
+                    <button class="icon-btn" data-dir="prev" aria-label="Previous categories"></button>
+                    <button class="icon-btn" data-dir="next" aria-label="Next categories"></button>
+                </div>
+            </div>
+            <div class="rail-track" role="list">
+                <article class="category-card" role="listitem">
+                    <p class="category-title">Generative AI</p>
+                    <p class="category-meta">25 courses</p>
+                </article>
+                <article class="category-card">
+                    <p class="category-title">Product Management</p>
+                    <p class="category-meta">18 courses</p>
+                </article>
+                <article class="category-card">
+                    <p class="category-title">Design & UX</p>
+                    <p class="category-meta">34 courses</p>
+                </article>
+                <article class="category-card">
+                    <p class="category-title">Leadership</p>
+                    <p class="category-meta">29 courses</p>
+                </article>
+                <article class="category-card">
+                    <p class="category-title">Data Science</p>
+                    <p class="category-meta">58 courses</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="reimagine shell">
+            <div class="reimagine-content">
+                <p class="eyebrow">Guided learning paths</p>
+                <h2>Reimagine your career in the flow of work</h2>
+                <p>Upskill with curated collections that blend expert videos, assessments, and labs so you can apply knowledge immediately.</p>
+                <ul>
+                    <li>Programs built with top instructors</li>
+                    <li>Hands-on practice with work-like scenarios</li>
+                    <li>Certificate-ready milestones</li>
+                </ul>
+                <div class="hero-actions">
+                    <button class="primary-btn">Browse learning paths</button>
+                    <button class="ghost-btn">View success stories</button>
+                </div>
+            </div>
+            <div class="reimagine-media">
+                <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=60" alt="Learning path preview">
+                <div class="floating-card">
+                    <p>Featured path</p>
+                    <h3>Digital Product Leader</h3>
+                    <p>8 courses • 6 labs • 3 practice exams</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills shell">
+            <header>
+                <div>
+                    <p class="eyebrow">Skills to transform your career and life</p>
+                    <h2>Trusted by learners and teams everywhere</h2>
+                </div>
+                <a href="business.html" class="inline-link">Why companies choose Udemy →</a>
+            </header>
+            <div class="skills-grid">
+                <article>
+                    <h3>For individuals</h3>
+                    <p>Unlock promotions, pivot careers, or explore new passions with flexible courses.</p>
+                    <ul>
+                        <li>Bite-sized lessons</li>
+                        <li>Practice workspaces</li>
+                        <li>Certificates of completion</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>For teams</h3>
+                    <p>Keep pace with innovation using curated pathways mapped to roles and certifications.</p>
+                    <ul>
+                        <li>Admin analytics</li>
+                        <li>Skills insights</li>
+                        <li>Hands-on labs</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="logo-row">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_Nasdaq.svg" alt="Nasdaq">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Volkswagen_logo_2019.svg" alt="VW">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Logo_dell_company.svg" alt="Dell">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Cisco_logo_blue_2016.svg" alt="Cisco">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Citi.svg" alt="Citi">
+            </div>
+        </section>
+
+        <section class="testimonials shell">
+            <div class="testimonial-card">
+                <p class="eyebrow">What learners are saying</p>
+                <p class="quote">“Udemy gives me the confidence to pivot quickly and lead new initiatives at work.”</p>
+                <div class="person">
+                    <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=200&q=60" alt="Learner headshot">
+                    <div>
+                        <p class="name">Rhea Collins</p>
+                        <p class="role">Product Manager, Atlus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card dark">
+                <h3>Get certified and get ahead in your career</h3>
+                <p>Hands-on training, Graded assessments, Official practice exams.</p>
+                <button class="secondary-btn">See all certifications</button>
+                <div class="badge-grid">
+                    <span>CompTIA A+</span>
+                    <span>AWS CCP</span>
+                    <span>Azure Admin</span>
+                    <span>PMI-ACP</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="ready shell">
+            <header>
+                <p class="eyebrow">Ready to reimagine your career?</p>
+                <h2>Explore curated picks based on trending roles</h2>
+            </header>
+            <div class="ready-grid">
+                <article>
+                    <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=400&q=60" alt="Full stack developer">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <p>JavaScript • React • Node • AWS</p>
+                        <button class="ghost-btn">View path</button>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=400&q=60" alt="Digital Marketer">
+                    <div>
+                        <h3>Digital Marketer</h3>
+                        <p>SEO • Paid media • Analytics</p>
+                        <button class="ghost-btn">View path</button>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=400&q=60" alt="Data analyst">
+                    <div>
+                        <h3>Data Analyst</h3>
+                        <p>Python • SQL • Tableau</p>
+                        <button class="ghost-btn">View path</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="trending shell" aria-labelledby="trending-title">
+            <header>
+                <div>
+                    <p class="eyebrow">Trending courses</p>
+                    <h2 id="trending-title">Top picks from instructors worldwide</h2>
+                </div>
+                <button class="ghost-btn">View all</button>
+            </header>
+            <div class="course-grid" data-inject-target="courses">
+                <!-- COURSE_INJECTION_POINT -->
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&w=400&q=60" alt="Python course">
+                    <div class="course-content">
+                        <p class="course-category">Development</p>
+                        <h3>Python 3 Bootcamp: Zero to Hero</h3>
+                        <p class="instructor">Jose Portilla</p>
+                        <div class="rating">
+                            <span>4.8</span>
+                            <div class="stars" aria-hidden="true"></div>
+                            <span>(245,102)</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price">$12.99</span>
+                            <span class="old-price">$84.99</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1454165205744-3b78555e5572?auto=format&fit=crop&w=400&q=60" alt="Product management">
+                    <div class="course-content">
+                        <p class="course-category">Product</p>
+                        <h3>Become a Strategic Product Manager</h3>
+                        <p class="instructor">Cole Mercer</p>
+                        <div class="rating">
+                            <span>4.7</span>
+                            <div class="stars"></div>
+                            <span>(32,897)</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price">$14.99</span>
+                            <span class="old-price">$99.99</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=60" alt="Data science">
+                    <div class="course-content">
+                        <p class="course-category">Data Science</p>
+                        <h3>Complete Data Analyst Bootcamp</h3>
+                        <p class="instructor">365 Careers</p>
+                        <div class="rating">
+                            <span>4.6</span>
+                            <div class="stars"></div>
+                            <span>(198,642)</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price">$11.99</span>
+                            <span class="old-price">$59.99</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="course-card">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=60" alt="Web development">
+                    <div class="course-content">
+                        <p class="course-category">Development</p>
+                        <h3>The Complete 2025 Web Developer Bootcamp</h3>
+                        <p class="instructor">Angela Yu</p>
+                        <div class="rating">
+                            <span>4.8</span>
+                            <div class="stars"></div>
+                            <span>(402,129)</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="price">$13.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="teams shell">
+            <header>
+                <p class="eyebrow">Grow your team's skills and your business</p>
+                <h2>Deploy learning paths mapped to the skills that matter most</h2>
+            </header>
+            <div class="teams-grid">
+                <article>
+                    <h3>Tech & IT</h3>
+                    <ul>
+                        <li>Cloud certifications</li>
+                        <li>Secure coding</li>
+                        <li>DevOps accelerators</li>
+                    </ul>
+                    <button class="ghost-btn">Explore tech catalog</button>
+                </article>
+                <article>
+                    <h3>Creatives & Product</h3>
+                    <ul>
+                        <li>Figma to prototype</li>
+                        <li>Design systems</li>
+                        <li>Roadmapping for PMs</li>
+                    </ul>
+                    <button class="ghost-btn">See creative paths</button>
+                </article>
+                <article>
+                    <h3>Leadership</h3>
+                    <ul>
+                        <li>Manager essentials</li>
+                        <li>Change enablement</li>
+                        <li>Inclusive leadership</li>
+                    </ul>
+                    <button class="ghost-btn">View leadership labs</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="report shell">
+            <div class="report-card">
+                <div>
+                    <p class="eyebrow">Get the 2026 Global Learning & Skills Trends Report</p>
+                    <h2>Discover the skills reshaping teams worldwide</h2>
+                    <p>Benchmarks, insights, and strategies to prioritize learning investments.</p>
+                    <button class="primary-btn">Download the report</button>
+                </div>
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=60" alt="Report cover">
+            </div>
+        </section>
+
+        <section class="popular shell">
+            <header>
+                <h2>Popular skills</h2>
+                <p>What learners are adding to their lists this week.</p>
+            </header>
+            <div class="popular-grid">
+                <div>
+                    <p class="eyebrow">Development</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="eyebrow">Business</p>
+                    <ul>
+                        <li>OKRs</li>
+                        <li>Strategic planning</li>
+                        <li>Change management</li>
+                        <li>Business writing</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="eyebrow">Design</p>
+                    <ul>
+                        <li>Figma</li>
+                        <li>UX research</li>
+                        <li>Design systems</li>
+                        <li>Motion graphics</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="eyebrow">IT & Security</p>
+                    <ul>
+                        <li>Cybersecurity</li>
+                        <li>Kubernetes</li>
+                        <li>Network engineering</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-study shell">
+            <div class="case-content">
+                <p class="eyebrow">Booz | Allen | Hamilton</p>
+                <h2>Upskill faster with Udemy Business</h2>
+                <p>“Udemy helps our teams stay ahead of emerging technologies while keeping productivity high.”</p>
+                <div class="case-metrics">
+                    <div>
+                        <span class="meta-value">93%</span>
+                        <span class="meta-label">Retention</span>
+                    </div>
+                    <div>
+                        <span class="meta-value">65%</span>
+                        <span class="meta-label">Productivity gain</span>
+                    </div>
+                </div>
+                <button class="secondary-btn">Read the story</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=500&q=60" alt="Team collaboration">
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <div class="shell footer-shell">
+            <div class="footer-top">
+                <p>Top companies choose Udemy Business to build mission-critical skills.</p>
+                <div class="logo-row">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_Samsung.svg" alt="Samsung">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Huawei_Standard_logo.svg" alt="Huawei">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/General_Electric_logo.svg" alt="GE">
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Udemy</h4>
+                    <a href="about.html">About</a>
+                    <a href="resources.html">Careers</a>
+                    <a href="support.html">Blog</a>
+                    <a href="#">Investors</a>
+                </div>
+                <div>
+                    <h4>Discover</h4>
+                    <a href="courses.html">All Courses</a>
+                    <a href="categories.html">Categories</a>
+                    <a href="learningpaths.html">Learning paths</a>
+                    <a href="resources.html">Resources</a>
+                </div>
+                <div>
+                    <h4>Businesses</h4>
+                    <a href="business.html">Udemy Business</a>
+                    <a href="enterprise.html">Enterprise</a>
+                    <a href="teams.html">Small teams</a>
+                    <a href="#">Government</a>
+                </div>
+                <div>
+                    <h4>Support</h4>
+                    <a href="support.html">Help center</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="logo">Udemy</div>
+                <p>© 2025 Udemy, Inc.</p>
+                <div class="footer-meta">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Cookie settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
